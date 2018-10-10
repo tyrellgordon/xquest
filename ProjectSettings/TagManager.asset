@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Trap
   - Coin
   - 
   - 
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: WorldObject
     uniqueID: 989632983
+    locked: 0
+  - name: Trap
+    uniqueID: 617509471
     locked: 0

@@ -2,12 +2,13 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/HUD.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="29" Column="10" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="33" Column="70" />
       <File FileName="Assets/Scripts/CameraController.cs" Line="21" Column="3" />
-      <File FileName="Assets/Scripts/ScoreScript.cs" Line="23" Column="18" />
-      <File FileName="Assets/Scripts/CoinScript.cs" Line="25" Column="6" />
-      <File FileName="Assets/Scripts/Player.cs" Line="37" Column="1" />
-      <File FileName="Assets/Scripts/HUD.cs" Line="14" Column="3" />
+      <File FileName="Assets/Scripts/ScoreScript.cs" Line="23" Column="15" />
+      <File FileName="Assets/Scripts/CoinScript.cs" Line="24" Column="10" />
+      <File FileName="Assets/Scripts/Player.cs" Line="37" Column="6" />
+      <File FileName="Assets/Scripts/SpikeScript.cs" Line="27" Column="1" />
+      <File FileName="Assets/Scripts/HUD.cs" Line="19" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

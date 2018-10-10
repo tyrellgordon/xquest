@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
     // Dude, we're going to assign player stats to public variables right here.
     public int currentHealth;
-    public int maxHealth = 100;
+    public int maxHealth = 5;
 
 	// Use this for initialization
 	void Start () {
@@ -29,8 +29,16 @@ public class Player : MonoBehaviour {
         }
 	}
 
+    // needs to be public for other scripts to see this funtion, bruh
+    public void Damage(int dmg){
+
+        currentHealth -= dmg;
+
+    }
+
+
     void Die(){
-        //restart
+        //restarts the game bruh
         Application.LoadLevel(Application.loadedLevel);
     }
 }
