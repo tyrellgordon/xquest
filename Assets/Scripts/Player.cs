@@ -5,11 +5,13 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     // Dude, we're going to assign player stats to public variables right here.
+    public string playerName = "Tyrell";
     public int currentHealth;
     public int maxHealth = 5;
+    private string url = "http://localhost:3000/users";
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 
         currentHealth = maxHealth;
 		
@@ -24,6 +26,13 @@ public class Player : MonoBehaviour {
         }
 
         if(currentHealth <= 0){
+
+            WWWForm sendStats = new WWWForm();
+            sendStats.AddField("name", playerName);
+
+            WWW www = new WWW(url, sendStats);
+
+
             Die();
             ScoreScript.scoreValue = 0;
         }
