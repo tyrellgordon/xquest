@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
     public string playerName = "Tyrell";
     public int currentHealth;
     public int maxHealth = 5;
-    private string url = "http://localhost:3000/users";
+    private string url = "http://localhost:3001/users";
 
     // Use this for initialization
     void Start () {
