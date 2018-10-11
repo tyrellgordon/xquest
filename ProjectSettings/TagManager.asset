@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Coin
   - Trap
+  - Score
+  - WorldObject
   layers:
   - Default
   - TransparentFX
