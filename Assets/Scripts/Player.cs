@@ -26,9 +26,10 @@ public class Player : MonoBehaviour {
         }
 
         if(currentHealth <= 0){
-
+            // send post request upon player death, bruh
             WWWForm sendStats = new WWWForm();
             sendStats.AddField("name", playerName);
+            sendStats.AddField("score", ScoreScript.scoreValue);
 
             WWW www = new WWW(url, sendStats);
 
