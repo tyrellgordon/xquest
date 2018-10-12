@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour {
             lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
         }
 
+      
+
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         anim.SetBool("PlayerMoving", playerMoving);
