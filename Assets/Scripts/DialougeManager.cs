@@ -8,6 +8,7 @@ public class DialougeManager : MonoBehaviour {
 
     public Text nameText;
     public Text dialougeText;
+    public Text buttonText;
 
     public Animator animator;
 
@@ -68,6 +69,9 @@ public class DialougeManager : MonoBehaviour {
     void EndDialouge(){
 
         animator.SetBool("IsOpen", false);
+        nameText.CrossFadeAlpha(0.0f, 0.05f, false);
+        dialougeText.CrossFadeAlpha(0.0f, 0.05f, false);
+        buttonText.CrossFadeAlpha(0.0f, 0.05f, false);
 
     }
 

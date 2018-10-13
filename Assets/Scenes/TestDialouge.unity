@@ -218,7 +218,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26, y: -142}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 606.2, y: 172.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253164745
@@ -658,7 +658,7 @@ GameObject:
   - component: {fileID: 1151862470}
   - component: {fileID: 1151862469}
   m_Layer: 5
-  m_Name: Text
+  m_Name: ButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -928,7 +928,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ???
+  m_Text: 
 --- !u!222 &1646570365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -965,6 +965,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1646570364}
   dialougeText: {fileID: 673752129}
+  buttonText: {fileID: 1151862469}
   animator: {fileID: 253164747}
 --- !u!4 &1723742181
 Transform:
@@ -1115,7 +1116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialouge:
-    name: ???
+    name: 
     sentences:
     - Welcome, brave traveler....
     - You are about to embark on an epic quest, in search of a fabled treasue.
