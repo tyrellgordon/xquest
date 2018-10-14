@@ -173,7 +173,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -241, y: 364}
+  m_AnchoredPosition: {x: -192, y: 286}
   m_SizeDelta: {x: 284.68, y: 58.67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &305851871
@@ -545,7 +545,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34af77a38624e4ef59303b1bf38c5ec5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerName: Tyrell
   currentHealth: 5
   maxHealth: 5
 --- !u!1 &1283369282
@@ -956,7 +955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: -330}
+  m_AnchoredPosition: {x: -178, y: -278}
   m_SizeDelta: {x: 67.7, y: 63.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1805159090
