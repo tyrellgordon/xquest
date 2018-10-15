@@ -167,6 +167,7 @@
     <None Include="Assets\Tiled2Unity\Shaders\shaDefault-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\Imported\First_Map.tiled2unity.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\Level_Two.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaColorKey.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
