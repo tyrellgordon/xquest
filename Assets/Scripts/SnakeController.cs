@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class SnakeController : MonoBehaviour {
 
+    private Player Player;
+
     public float moveSpeed;
 
     private Rigidbody2D myRigidBody;
+
+    Collider2D snakeCollider;
 
     private bool moving;
 
@@ -23,11 +27,15 @@ public class SnakeController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         myRigidBody = GetComponent<Rigidbody2D>();
+        snakeCollider = this.GetComponent<Collider2D>();
 
-        timeBetweenMoveCounter = timeBetweenMove;
-        timeToMoveCounter = timeToMove;
+        //timeBetweenMoveCounter = timeBetweenMove;
+        //timeToMoveCounter = timeToMove;
+
+        timeBetweenMoveCounter = Random.Range(timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
+        timeToMoveCounter = Random.Range(timeToMove * 0.75f, timeBetweenMove * 1.25f);
        
        
 		
@@ -43,7 +51,8 @@ public class SnakeController : MonoBehaviour {
             if (timeToMoveCounter < 0f)
             {
                 moving = false;
-                timeBetweenMoveCounter = timeBetweenMove;
+                //timeBetweenMoveCounter = timeBetweenMove;
+                timeBetweenMoveCounter = Random.Range(timeBetweenMove * 0.75f, timeBetweenMove * 1.25f);
             }
 
 
@@ -57,10 +66,28 @@ public class SnakeController : MonoBehaviour {
             if(timeBetweenMoveCounter < 0f)
             {
                 moving = true;
-                timeToMoveCounter = timeToMove;
+                //timeToMoveCounter = timeToMove;
+                timeToMoveCounter = Random.Range(timeToMove * 0.75f, timeBetweenMove * 1.25f);
 
                 moveDirection = new Vector3(Random.Range(-1f,1f) * moveSpeed, Random.Range(-1f,1f) * moveSpeed, 0f);
             }
         }
 	}
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.name == ("Player"))
+        {
+
+
+
+
+            Player.Damage(1);
+
+
+        }
+
+
+    }
 }
