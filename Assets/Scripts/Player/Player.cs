@@ -53,6 +53,6 @@ public class Player : MonoBehaviour {
 
     void Die(){
         //restarts the game bruh
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("start_menu");
     }
 }
