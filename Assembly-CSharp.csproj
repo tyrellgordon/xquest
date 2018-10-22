@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Dialouge\Dialouge.cs" />
     <Compile Include="Assets\Scripts\Dialouge\DialougeManager.cs" />
     <Compile Include="Assets\Scripts\Dialouge\DialougeTrigger.cs" />
+    <Compile Include="Assets\Scripts\EnemyFollow.cs" />
     <Compile Include="Assets\Scripts\HUD\HUD.cs" />
     <Compile Include="Assets\Scripts\HUD\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
