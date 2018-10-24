@@ -19,7 +19,7 @@ public class Player : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-
+        SoundManager.instance.musicSource.Play();
         currentHealth = maxHealth;
 		
 	}
@@ -42,7 +42,7 @@ public class Player : MonoBehaviour {
 
 
             Die();
-            SoundManager.instance.musicSource.Stop();
+
             ScoreScript.scoreValue = 0;
         }
 	}
@@ -59,6 +59,7 @@ public class Player : MonoBehaviour {
 
     void Die(){
         //restarts the game bruh
+        SoundManager.instance.musicSource.Stop();
         SceneManager.LoadScene("start_menu");
     }
 }
