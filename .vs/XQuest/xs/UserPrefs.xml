@@ -5,7 +5,7 @@
       <File FileName="Assets/Scripts/CoinScript.cs" Line="26" Column="73" />
       <File FileName="Assets/Scripts/MainMenu.cs" Line="4" Column="1" />
       <File FileName="Assets/Scripts/Player/CharacterCreator.cs" Line="5" Column="1" />
-      <File FileName="Assets/Scripts/Player/Player.cs" Line="20" Column="35" />
+      <File FileName="Assets/Scripts/Player/Player.cs" Line="35" Column="30" />
       <File FileName="Assets/Scripts/HUD/ScoreScript.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SpikeScript.cs" Line="40" Column="12" />
       <File FileName="Assets/Scripts/LoadNewArea.cs" Line="26" Column="2" />
