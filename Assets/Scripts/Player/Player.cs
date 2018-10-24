@@ -9,6 +9,11 @@ public class Player : MonoBehaviour {
     public static string playerName = "Tyrell";
     public int currentHealth;
     public int maxHealth = 5;
+
+   
+    public AudioClip gameOverSound;
+
+
     private string url = "http://localhost:3001/users";
 
 
@@ -37,6 +42,7 @@ public class Player : MonoBehaviour {
 
 
             Die();
+            SoundManager.instance.musicSource.Stop();
             ScoreScript.scoreValue = 0;
         }
 	}

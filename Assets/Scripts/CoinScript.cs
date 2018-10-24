@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public AudioClip coinPickUp;
+    public AudioClip coinPickUp2;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -20,6 +23,7 @@ public class CoinScript : MonoBehaviour {
     {
         if(collision.gameObject.tag.Equals ("Player")){
             ScoreScript.scoreValue += 10;
+            SoundManager.instance.RandomizeSfx(coinPickUp, coinPickUp2);
             Destroy(gameObject);
         }
     }
