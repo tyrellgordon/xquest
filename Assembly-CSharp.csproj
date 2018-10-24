@@ -177,6 +177,7 @@
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\License.txt" />
+    <None Include="Assets\Sounds\README.txt" />
     <None Include="Assets\Fonts\Pixel Font - Tripfive\_README.txt" />
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
