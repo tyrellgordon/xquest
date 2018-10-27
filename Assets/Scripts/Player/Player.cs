@@ -32,7 +32,7 @@ public class Player : MonoBehaviour {
             currentHealth = maxHealth;
         }
 
-        if(currentHealth <= 0 || ScoreScript.scoreValue == 360){
+        if(currentHealth <= 0 || ScoreScript.scoreValue == 500){
             // send post request upon player death, bruh
             WWWForm sendStats = new WWWForm();
             sendStats.AddField("name", playerName);
@@ -55,6 +55,14 @@ public class Player : MonoBehaviour {
         currentHealth -= dmg;
 
     }
+
+    public void Heal(int heal)
+    {
+
+        currentHealth += heal;
+
+    }
+
 
 
     void Die(){
